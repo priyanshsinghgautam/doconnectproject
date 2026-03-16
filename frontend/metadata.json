@@ -1,0 +1,5 @@
+{
+  "name": "DocConnect",
+  "description": "A modern web application to find and book appointments with top-rated doctors, featuring search, filtering, and appointment management.",
+  "requestFramePermissions": []
+}
