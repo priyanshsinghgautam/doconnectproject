@@ -1,21 +1,21 @@
-# DoConnect – Full Stack Developer Networking Platform
+# DoConnect – Smart Doctor Search & Appointment Platform
 
-DoConnect is a **full-stack web application** designed to connect developers and enable them to share ideas, collaborate on projects, and interact with a developer community.
+DoConnect is a **full-stack web application** that allows users to **search for doctors and book appointments easily**.
+The platform helps patients quickly find the right doctor and manage appointments in a simple and efficient way.
 
-The application consists of a **Node.js + Express backend** and a **React + TypeScript frontend built with Vite**.
+The project is built using a **Node.js + Express backend** and a **React + TypeScript frontend powered by Vite**, with **MongoDB** used as the database.
 
 ---
 
 ## Features
 
-* User authentication and environment-based configuration
-* REST API built with Express.js
-* React frontend with modern component architecture
-* Context API for state management
-* Modular routing and models for backend scalability
-* Environment-based configuration using `.env`
-* TypeScript support in frontend
-* Clean and scalable folder structure
+* 🔎 Search doctors easily
+* 📅 Book appointments with doctors
+* 🧑‍⚕️ Organized doctor information
+* ⚡ Fast and responsive React frontend
+* 🔗 REST API based backend
+* 📦 Modular backend architecture with models and routes
+* 🌐 Environment based configuration
 
 ---
 
@@ -32,8 +32,8 @@ The application consists of a **Node.js + Express backend** and a **React + Type
 
 * Node.js
 * Express.js
-* MongoDB (via models)
-* REST API
+* MongoDB
+* Mongoose
 
 ### Tools
 
@@ -54,10 +54,9 @@ doconnectproject
 │   ├── node_modules
 │   ├── .env
 │   ├── db.js
-│   ├── server.js
 │   ├── seed.js
+│   ├── server.js
 │   ├── package.json
-│   └── package-lock.json
 │
 ├── frontend
 │   ├── components
@@ -89,7 +88,7 @@ Clone the repository:
 git clone https://github.com/priyanshsinghgautam/doconnectproject.git
 ```
 
-Navigate into the project folder:
+Navigate to the project folder:
 
 ```
 cd doconnectproject
@@ -118,7 +117,7 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 ```
 
-Run the backend server:
+Run backend server:
 
 ```
 npm start
@@ -128,7 +127,7 @@ npm start
 
 ## Frontend Setup
 
-Go to frontend folder:
+Navigate to frontend folder:
 
 ```
 cd frontend
@@ -140,13 +139,13 @@ Install dependencies:
 npm install
 ```
 
-Run the frontend development server:
+Run development server:
 
 ```
 npm run dev
 ```
 
-The frontend will start on:
+Frontend will run on:
 
 ```
 http://localhost:5173
@@ -175,19 +174,18 @@ VITE_API_URL=http://localhost:5000
 
 ## Future Improvements
 
-* User authentication system
-* Developer profiles
-* Post creation and interaction
-* Real-time messaging
-* Deployment with Docker / Cloud
+* User authentication
+* Doctor profile pages
+* Appointment history
+* Notifications for booked appointments
+* Deployment with cloud services
 
 ---
 
 ## Author
 
 **Priyansh Singh Gautam**
-
-B.Tech Student | Java | SQL | Frontend Developer | MERN Stack Enthusiast
+B.Tech Student | Java | SQL | Frontend Developer
 
 GitHub:
 https://github.com/priyanshsinghgautam
